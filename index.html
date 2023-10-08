@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Jima Benjamin</title>
+  <meta name="title" content="Jima Benjamin - Software Engineer.">
+  <meta name="description" content="This is the official personal portfolio website of Jima Benjamin.">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+  
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <span class="line"></span>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="84" height="26" alt="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="84" height="26" alt="logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link" data-nav-link>Project</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#contact" class="btn btn:hover">
+        <span class="span">Get In Touch</span>
+
+        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+      </a>
+
+      <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <div class="hero text-center" id="home">
+        <div class="container">
+
+          <div class="banner-outline has-after">
+
+            <div class="hero-banner img-holder has-after" style="--width: 500; --height: 680;" data-tilt>
+              <img src="./assets/images/pic.jpg" width="500" height="680" alt="Jima Benjamin" class="img-cover">
+            </div>
+
+            <span class="span title">Jima Benjamin</span>
+
+          </div>
+
+          <div class="hero-content">
+
+            <h1 class="h1 title">Migrate From Unprofessional To White Collar</h1>
+
+            <div class="wrapper">
+              <a href="assets/images/jima Resume-Dark.pdf" class="btn btn:hover">
+                <span class="span">View my CV</span>
+
+                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+              </a>
+
+              <p class="hero-text">
+                From device to cloud to the edge Innovate from anywhere.
+              </p>
+            </div>
+
+          </div>
+
+          <img src="./assets/images/hero-shape-1.png" width="559" height="232" alt="shape" class="shape shape-1">
+
+          <img src="./assets/images/hero-shape-2.png" width="1358" height="497" alt="shape" class="shape shape-2">
+
+        </div>
+      </div>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service text-center" aria-label="my services" id="service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/web-development.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Web <br>
+                    Development
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/digital-marketing.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Digital <br>
+                    Marketing
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/camera.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Graphics <br>
+                    Design
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/mobile-app-store.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Mobile <br>
+                    Application
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about-me" id="about">
+        <div class="container">
+
+          <div class="tab-container">
+
+            <ul class="tab-btn-list">
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6 active" data-tab-btn="about">About Me</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="skillset">Skillset</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="interview">Expo</button>
+              </li>
+
+            </ul>
+
+            <div class="tab-content active" data-tab-content="about">
+              <div class="grid-list">
+
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="./assets/images/about-banner.jpg" width="570" height="420" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+
+                <div class="about-content">
+
+                  <h2 class="h4 title section-title">
+                    I love the Challenge of Solving Incredibly Hard Problems .
+                  </h2>
+
+                  <p class="section-text">
+                    Am a very dedicated, hardworking and focused Software developer based in Kampala, Uganda.
+                    I always find a solution to any issue. Eventually 😁 .
+                  </p>
+
+                  <ul class="about-list">
+
+                    <li class="about-item">
+                      <p class="list-title">Name</p>
+
+                      <span class="span title h5">Jima Benjamin</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Phone Number</p>
+
+                      <span class="span title h5">+256 770 458 644</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Email Address</p>
+
+                      <span class="span title h5">info@jimabenjamin.site</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Social Network</p>
+
+                      <div class="social-list">
+
+                        <a href="https://github.com/jima05" class="social-link h6" title="GitHub"><img src="assets/images/github.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/jimabebjamin" class="social-link h6" title="Linkedin"><img src="assets/images/linkedin.png" alt=""></a>
+
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="skillset">
+              <div class="grid-list">
+
+                <div class="skill-content">
+
+                  <h3 class="h4 title section-title">
+                    I have ammased a colossal set of diverse skills which include among others:
+                  </h3>
+
+                  <ul class="skill-list">
+
+                    <li> 
+                      <div class="skill-wrapper">
+                        <span class="span">React.js</span>
+                        <span class="span">Next.js</span>
+                        <span class="span">Node.js</span>
+                        <span class="span">MongoDB</span>
+                        <span class="span">Express.js</span>
+
+                      <span class="value">95%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%"></div>
+                      </div>
+                    </li>
+                    
+                    <li>
+                      
+                      <div class="skill-wrapper">
+                        <span class="span">React Native</span>
+                        <span class="span">Flutter</span>
+
+                        <span class="value">90%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%"></div>
+                      </div>
+                    </li>
+
+                    <li> 
+                      <div class="skill-wrapper">
+                        <span class="span">HTML</span>
+                        <span class="span">CSS</span>
+                        <span class="span">Bootstrap</span>
+                        <span class="span">Tailwind</span>
+                        <span class="span">SCSS</span>
+                        <span class="span">Vite</span>
+                      </div>
+                      <div class="skill-wrapper">
+                        <span class="span">C#</span>
+                        <span class="span">Java</span>
+                        <span class="span">Python</span>
+                        <span class="span">PHP</span>
+                        <span class="span">MSSQL</span>
+                        <span class="span">MySql</span>
+                      </div>
+                      
+                    </li>
+  
+                  </ul>
+
+                </div>
+
+                <figure class="skill-banner img-holder" style="--width: 570; --height: 420;" data-tilt>
+                  <img src="./assets/images/skill-banner.png" width="570" height="420" loading="lazy" alt="skill banner"
+                    class="img-cover">
+                </figure>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="interview">
+              <div class="grid-list">
+
+                <div class="interview-card img-holder" style="--width: 376; --height: 420;" data-tilt>
+                  <img src="./assets/images/ex1.jpg" width="376" height="420" loading="lazy" alt="interview 1"
+                    class="img-cover">
+
+                  <button class="btn btn:hover">Play</button>
+                </div>
+
+                <div class="interview-card img-holder" style="--width: 376; --height: 420;" data-tilt>
+                  <video controls src="./assets/images/int1.mp4" width="376" height="420" loading="lazy" alt="interview 2"
+                    class="img-cover">
+
+                  <button class="btn btn:hover">Play</button>
+                </div>
+
+                <div class="interview-card img-holder" style="--width: 376; --height: 420;" data-tilt>
+                  <img src="./assets/images/ex2.jpg" width="376" height="420" loading="lazy" alt="interview 3"
+                    class="img-cover">
+
+                  <button class="btn btn:hover">Play</button>
+                </div>
+
+              </div>
+            </div>
+
+             
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta" aria-label="work with me">
+        <div class="container">
+
+          <h2 class="title h2 section-title text-center">
+            Let's Work Together On Your Next Project!
+          </h2>
+
+          <a href="#" class="btn btn:hover">
+            <span class="span">Hire Me Now</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+      <section class="section project" aria-label="my latest projects" id="project">
+
+        <ul class="slider-list">
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-1.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Creative & experienced digital design studio" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Smart Home App</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Flutter & Home assistant</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/netflix.png" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Front End Development & Maintenance" class="img-cover">
+
+                <a href="https://netflix-jb.netlify.app/" class="btn btn:hover">
+                  <span class="span">See Project</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Netflix Clone</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">React Redux & Firebase</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/ecommerce.png" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Flutter Framework & Warframe Design" class="img-cover">
+
+                <a href="https://julumode.netlify.app/" class="btn btn:hover">
+                  <span class="span">View Project</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Ecommerce Web app</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">HTML, CSS & Javascript</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-5.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Cloud Migration & AWS Services" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web, Product</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Cloud Migration & AWS Services</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi" aria-label="what our client says" id="review">
+        <div class="container">
+
+          <!-- <div class="testi-content">
+
+            <blockquote class="title h4 section-text">
+              &ldquo; The average national hourly rate for house cleaning services is $25 to $90 per individual, or $50
+              to $90 per hour. The size and condition of your home will strongly impact the price of these. &rdquo;
+            </blockquote>
+
+            <div class="profile-card">
+              <figure class="card-banner img-holder" style="--width: 70; --height: 70;">
+                <img src="./assets/images/client.png" width="70" height="70" loading="lazy" alt="Alexis browni JR."
+                  class="img-cover">
+              </figure>
+
+              <div>
+                <p class="title h5 card-title">Alexis browni JR.</p>
+
+                <p class="card-subtitle">Founder of alxis co.</p>
+              </div>
+            </div>
+
+          </div> -->
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact me" id="contact">
+        <div class="container">
+
+          <h2 class="title h2 section-title">Get In Touch</h2>
+
+          <div class="contact-content">
+
+            <form action="./index.html" method="post" class="contact-form">
+
+              <input type="text" name="name" placeholder="Full name" autocomplete="off" required class="input-field" id="name">
+
+              <input type="email" name="email_address" placeholder="Email address" autocomplete="off" required
+                class="input-field" id="email">
+
+              <input type="tel" name="phone" placeholder="Phone" autocomplete="off" class="input-field" id="phone">
+
+              <input type="text" name="subject" placeholder="Subject" autocomplete="off" required class="input-field" id="subject">
+
+              <textarea name="message" placeholder="Enter massges" required class="input-field" id="message"></textarea>
+
+              <button type="submit" class="btn btn:hover" onclick="sendEmail()">
+                <span class="span">Send </span>
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+
+            </form>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d997.4354221234529!2d32.61403128373324!3d0.35511287505999284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sug!4v1683140049480!5m2!1sen!2sug"
+             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-1.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6">256 770 458 644</span>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-2.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <address class="title h6">
+                    Ntinda,
+                    Kampala, Uganda
+                  </address>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-3.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6" mailto="info@jimabenjamin.site">info@jimabenjamin.site</span>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; By @jimabenjamin - 2023
+      </p>
+
+      <a href="#top" class="back-top-btn">
+        <span class="span">Back To Top</span>
+
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+      </a>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor-dot" data-cursor></div>
+  <div class="cursor-outline" data-cursor></div>
+
+
+  
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+   <!-- SMTP  -->
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+  
+    <script>
+      function sendEmail(){
+        let name = document.getElementById("name").value;
+        let email = document.getElementById("email").value;
+        let phone = document.getElementById("phone").value;
+        let subject = document.getElementById("subject").value;
+        let message = document.getElementById("message").value;
+
+        let body = "Name: " + name +" <br/> Email: " + email +" <br/> Phone Number: " + phone + " <br/> Subject: " + subject +  " <br/> Message: " + message ;
+
+        Email.send({
+    SecureToken : "ed41c40b-3f49-46ee-aae4-611c284cf4dc",
+    To : 'info@jimabenjamin.site',
+    From : "info@jimabenjamin.site",
+    Subject : subject,
+    Body : body
+}).then(
+  message => alert(message)
+);
+      }
+  </script>
+
+</body>
+
+</html>
